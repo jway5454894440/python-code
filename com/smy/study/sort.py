@@ -9,4 +9,6 @@ def reversort(x,y):
 
 print(sorted([1,3,2,7,5,4,6]))
 
+print(sorted([1,3,2,7,5,4,6],None,None,True))
+
 print(sorted([1,3,2,7,5,4,6],reversort))
