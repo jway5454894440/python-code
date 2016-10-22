@@ -25,5 +25,12 @@ def kill(cur,personold):
                 kill(2,personold)
     return  personold
 
-personold=[1,2,3,4,5,6,7,8,9]
+personold=[1,2,3,4,5,6,7,8,9,10]
 print (kill(0,personold))
+
+
+class Linklist(object):
+
+    def __init__(self,arr):
+        for i in arr:
+            self.next=arr;
