@@ -35,4 +35,5 @@ def rabbitarr(month):
 #print (sum100(100))
 print  rabbit(5)
 print(reduce(lambda x,y:x+y,rabbitarr(5)))
+print(map(lambda x,:x*x,rabbitarr(5)))
 print (rabbitarr(5))
